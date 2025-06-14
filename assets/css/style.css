@@ -4041,7 +4041,7 @@ hr {
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
 .gallery-area {
-  background: #FFEFAE;
+  background: white;
 }
 
 /* line 4, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
@@ -4107,7 +4107,7 @@ hr {
   text-align: center;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgb(0, 0, 0);
   top: 0;
   left: 0;
 }
@@ -4124,10 +4124,12 @@ hr {
 
 /* line 50, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
 .gallery-area .box .overlay .overlay-content a {
-  color: #FFEFAE;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
   display: inline-block;
   text-align: center;
-  font-size: 37px;
+  font-size: 20px;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
