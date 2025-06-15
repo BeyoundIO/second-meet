@@ -3017,7 +3017,7 @@ hr {
 
 /* line 955, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .section-tittle h2 {
-  font-size: 80px;
+  font-size: 60px;
   display: block;
   font-weight: 300;
   line-height: 1.4;
@@ -3339,6 +3339,7 @@ hr {
 .header-sticky.sticky-bar {
   background: #fff;
 }
+
 
 /* line 133, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
 .header-sticky.sticky-bar.sticky .main-menu ul li a {
@@ -4083,21 +4084,21 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 21, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
   .gallery-area .box .small-img {
-    height: 380px;
+    height: 500px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 21, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
   .gallery-area .box .small-img {
-    height: 335px;
+    height: 500px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 21, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
   .gallery-area .box .small-img {
-    height: 335px;
+    height: 500px;
   }
 }
 
@@ -7034,7 +7035,8 @@ del {
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
-  height: 200px;
+  height: 300px;
+  border: 2px solid rgb(109, 11, 11);
 }
 
 /* line 417, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
